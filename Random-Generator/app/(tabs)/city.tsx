@@ -25,7 +25,7 @@ export default function TabOneScreen() {
     const newState = randomCity.state;
     const newCity = randomCity.city;
 
-    // Update their state
+    // Update their states
     setLatitude(newLatitude);
     setLongitude(newLongitude);
     setCity(newCity);
@@ -59,7 +59,7 @@ export default function TabOneScreen() {
         </MapView>
       </View>
       
-      {/* Latitude and Longitude Display */}
+      {/* State, City, Latitude, Longitude Display */}
       <View style={styles.infoContainer}>
         <Text style={styles.text}>State: <Text style={styles.textColor}>{state}</Text> </Text>
         <Text style={styles.text}>City: <Text style={styles.textColor}>{city}</Text> </Text>
