@@ -6,10 +6,11 @@ import { Text, View } from '@/components/Themed';
 
 export default function TabTwoScreen() {
 
-  // State variable to hold image URL
+  // State variable to hold image URL, if useState('') has a default image path, then no need to use useEffect
   const [imageUrl, setImageUrl] = useState('');
   const totalImages = 1400;
 
+  // useEffect will generate a new image when first open the app
   useEffect(() => {
     const randomNumber = Math.floor(Math.random() * totalImages);
 
@@ -56,8 +57,8 @@ const styles = StyleSheet.create({
     width: '80%',
   },
   image: {
-    width: 300,
-    height: 300,
+    width: 400,
+    height: 400,
     resizeMode: 'contain',
     marginBottom: 20,
   }
