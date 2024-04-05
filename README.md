@@ -1,5 +1,15 @@
 # Random-Generator-React-Native
 
+# How to run this project locally
+```
+cd Random-Generator
+npm install
+npx expo start
+```
+
+
+
+
 
 Expo with router
 ```
