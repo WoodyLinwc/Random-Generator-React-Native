@@ -32,6 +32,8 @@ export default function TabOneScreen() {
     setState(newState);
 
     // Update map key to force re-render
+    // By changing the mapKey, React will treat it as a new component instance and re-render it, 
+    // which can be useful in scenarios where you need to force re-renders
     setMapKey(prevKey => prevKey + 1);
   };
 
