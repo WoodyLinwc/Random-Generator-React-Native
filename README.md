@@ -9,7 +9,7 @@ npx expo start
 
 
 
-A intuitive project that helps you understand a little bit about React Hooks (useState, useEffect)
+A intuitive project that helps you understand a little bit about React Router and React Hooks (useState, useEffect)
 
 Expo with router
 ```
