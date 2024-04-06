@@ -9,11 +9,15 @@ export default function TabOneScreen() {
       <View style={styles.separator} lightColor="#eee" darkColor="rgba(255,255,255,0.1)" />
       
       <View style={styles.item}>
-        <Text style={styles.text}>1. (G)I-DLE Image</Text>
+        <Text style={styles.text}>1. Unsplash Photography</Text>
       </View>
 
       <View style={styles.item}>
         <Text style={styles.text}>2. City Explorer</Text>
+      </View>
+
+      <View style={styles.item}>
+        <Text style={styles.text}>3. (G)I-DLE Image</Text>
       </View>
       
       
