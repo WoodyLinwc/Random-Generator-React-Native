@@ -23,7 +23,9 @@ npx expo start
 ```
 
 You put your `env.tsx` file in the following place
-`export const UNSPLASH_API = "YOUR_UNSPLASH_ACCESS_KEY"`
+```
+export const UNSPLASH_API = "YOUR_UNSPLASH_ACCESS_KEY"
+```
 ![env.tsx](./img/env_react.png)
 
 
