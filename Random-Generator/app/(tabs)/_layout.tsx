@@ -48,10 +48,10 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
-        name="gidle"
+        name="unsplash"
         options={{
-          title: '(G)I-DLE',
-          tabBarIcon: ({ color }) => <TabBarIcon name="image" color={color} />,
+          title: 'Unsplash',
+          tabBarIcon: ({ color }) => <TabBarIcon name="star" color={color} />,
         }}
       />
       <Tabs.Screen
@@ -59,6 +59,13 @@ export default function TabLayout() {
         options={{
           title: 'Random City',
           tabBarIcon: ({ color }) => <TabBarIcon name="map" color={color} />,
+        }}
+      />
+      <Tabs.Screen
+        name="gidle"
+        options={{
+          title: '(G)I-DLE',
+          tabBarIcon: ({ color }) => <TabBarIcon name="image" color={color} />,
         }}
       />
       
