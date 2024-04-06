@@ -19,7 +19,9 @@ npx expo start
 ```
 
 In Unsplash page, you can click the image to get next one.
+
 In Random City page, you can click "Next City!" to visit next city.
+
 In (G)I-DLE page, you can click "Click Me for More!" to generate new one.
 
 
