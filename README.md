@@ -15,8 +15,16 @@ A intuitive and fun project that helps you understand a little bit about React R
 ```
 cd Random-Generator
 npm install
+
+// please create a env.tsx file 
+// and obtain access key from Unsplash before run the application
+
 npx expo start
 ```
+
+You put your `env.tsx` file in the following place
+![env.tsx](./img/env_react.png)
+
 
 In Unsplash page, you can click the image to get next one.
 
