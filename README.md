@@ -11,27 +11,47 @@ A intuitive and fun project that helps you understand a little bit about React R
 ![Gidle](./img/gidle_react.png)
 
 # How to run this project locally
-Fork my repo and give it a shot!
+**Fork** my repo and give it a shot!
 ```
 cd Random-Generator
 npm install
 npx expo start
 ```
 
+In Unsplash page, you can click the image to get next one.
+In Random City page, you can click "Next City!" to visit next city.
+In (G)I-DLE page, you can click "Click Me for More!" to generate new one.
 
 
+# Expo Router
+Expo Router is a file-based router for **React Native** and web applications. It allows you to manage navigation between screens in your app, allowing users to move seamlessly between different parts of your app's UI, using the same components on multiple platforms (Android, iOS, and web).
 
+If you want to make a similar project on your own, you can use the Expo Router template.
 
-Expo with router
+[Install Expo Router](https://docs.expo.dev/router/installation/#quick-start)
 ```
 npx create-expo-app@latest --template tabs@50
-cd Random-Generator
 npx expo start
 ```
 
-useState and useEffect, react hook
+# React Hook
 
-If you don't use a state variable to hold the image URL, the image won't be able to dynamically change based on user interaction or any other events. Instead, the image will be static and remain the same throughout the component's lifecycle.
+In this project, if you don't use a state variable to hold the image URL, the image won't be able to dynamically change based on user interaction or any other events. Instead, the image will be static and remain the same throughout the component's lifecycle.
+
+Please check [here](https://legacy.reactjs.org/docs/hooks-intro.html) to learn more about React Hook.
 
 
-go to https://unsplash.com/developers to request FREE API
+# Unsplash API
+
+The Unsplash API is a modern JSON API. It allows you to search and obtain high-resolution copyright-free images
+
+Go to https://unsplash.com/developers to request FREE API access key!
+
+# React Native Version
+```
+"react-native": "0.73.6"
+```
+
+
+# Project Author
+![Me](./img/me_react.png)
