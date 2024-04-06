@@ -22,7 +22,7 @@ npm install
 npx expo start
 ```
 
-You put your `env.tsx` file in the following place
+You create your `env.tsx` file in the following place
 ```
 export const UNSPLASH_API = "YOUR_UNSPLASH_ACCESS_KEY"
 ```
