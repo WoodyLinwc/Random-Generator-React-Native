@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { StyleSheet, Text, View, TouchableOpacity, Image, Linking } from 'react-native';
+// create env.tsx instead
+import { UNSPLASH_API } from '../../env';
 
 export default function TabOneScreen() {
   const [imageData, setImageData] = useState<any>(null); // Specify type as 'any'
@@ -10,7 +12,7 @@ export default function TabOneScreen() {
 
   // Function to fetch a new random image
   const fetchNewImage = () => {
-    const clientID = process.env.UNSPLASH_API;
+    const clientID =  UNSPLASH_API;
     const endpoint = `https://api.unsplash.com/photos/random/?client_id=${clientID}`;
     
     fetch(endpoint)
