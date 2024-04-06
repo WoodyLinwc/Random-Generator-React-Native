@@ -67,4 +67,5 @@ Go to https://unsplash.com/developers to request FREE API access key!
 
 
 # Project Author
+I have tested my project separately, and it worked. Let me know if there's any problem.
 ![Me](./img/me_react.png)
