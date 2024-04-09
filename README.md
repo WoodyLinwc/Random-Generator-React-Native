@@ -20,6 +20,8 @@ npm install
 // and obtain access key from Unsplash before run the application
 
 npx expo start
+// open your iOS simulator on Xcode
+i
 ```
 
 You create your `env.tsx` file in the following place
